@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA59A0C929D4E508007C1619 /* desistencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59A0C829D4E508007C1619 /* desistencia.swift */; };
 		FA98345B29D4DFBA00B81C89 /* cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345929D4DFBA00B81C89 /* cadastro.swift */; };
 		FA98345C29D4DFBA00B81C89 /* atendimento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345A29D4DFBA00B81C89 /* atendimento.swift */; };
 		FA98345D29D4DFBA00B81C89 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345829D4DFBA00B81C89 /* Paciente.swift */; };
-		FA98345F29D4E09A00B81C89 /* desistencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345E29D4E09A00B81C89 /* desistencia.swift */; };
 		FAA916D129D3C77F00858279 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA916D029D3C77F00858279 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,11 +27,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA59A0C829D4E508007C1619 /* desistencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desistencia.swift; sourceTree = "<group>"; };
 		FA98345129D4DF0700B81C89 /* Functions.instrdst */ = {isa = PBXFileReference; explicitFileType = com.apple.instruments.instrdst; includeInIndex = 0; path = Functions.instrdst; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA98345829D4DFBA00B81C89 /* Paciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
 		FA98345929D4DFBA00B81C89 /* cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cadastro.swift; sourceTree = "<group>"; };
 		FA98345A29D4DFBA00B81C89 /* atendimento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atendimento.swift; sourceTree = "<group>"; };
-		FA98345E29D4E09A00B81C89 /* desistencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = desistencia.swift; path = ../desistencia.swift; sourceTree = "<group>"; };
 		FAA916CD29D3C77F00858279 /* filaHospital */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = filaHospital; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA916D029D3C77F00858279 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +71,7 @@
 				FA98345A29D4DFBA00B81C89 /* atendimento.swift */,
 				FA98345929D4DFBA00B81C89 /* cadastro.swift */,
 				FA98345829D4DFBA00B81C89 /* Paciente.swift */,
-				FA98345E29D4E09A00B81C89 /* desistencia.swift */,
+				FA59A0C829D4E508007C1619 /* desistencia.swift */,
 			);
 			path = filaHospital;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 			files = (
 				FA98345B29D4DFBA00B81C89 /* cadastro.swift in Sources */,
 				FAA916D129D3C77F00858279 /* main.swift in Sources */,
+				FA59A0C929D4E508007C1619 /* desistencia.swift in Sources */,
 				FA98345D29D4DFBA00B81C89 /* Paciente.swift in Sources */,
 				FA98345C29D4DFBA00B81C89 /* atendimento.swift in Sources */,
-				FA98345F29D4E09A00B81C89 /* desistencia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
