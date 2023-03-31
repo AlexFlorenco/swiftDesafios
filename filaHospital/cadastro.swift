@@ -21,7 +21,7 @@ func cadastrarPaciente(){
                 
                 let instanciaPaciente = Paciente(nome: nome.uppercased(), tipo: tipo)
                 instanciaPaciente.senha = gerarSenha()
-                let fila = adicionarAFila(instanciaPaciente.senha, instanciaPaciente.nome, instanciaPaciente.tipo)
+                let fila = adicionarAFila(instanciaPaciente)
                 print("\n------------------------------------")
                 print("BEM-VINDO(A), \(instanciaPaciente.nome)! (\(instanciaPaciente.tipo))\nSENHA: \(instanciaPaciente.senha)\nFILA: \(fila)\n\nAGUARDE QUE SUA SENHA SEJA CHAMADA!")
                 print("------------------------------------")
@@ -39,19 +39,19 @@ func cadastrarPaciente(){
     }
 }
 
-func adicionarAFila(_ senha: String, _ nome: String, _ tipo: String) -> String{
+func adicionarAFila(_ paciente: Paciente) -> String{
     if fila1.count <= fila2.count && fila1.count <= fila3.count{
-        fila1.append([senha, nome, tipo])
+        fila1.append(paciente)
         return "1"
     }
     
     else if fila2.count <= fila1.count && fila2.count <= fila3.count{
-        fila2.append([senha, nome, tipo])
+        fila2.append(paciente)
         return "2"
     }
     
     else if fila3.count <= fila1.count && fila3.count <= fila2.count{
-        fila3.append([senha, nome, tipo])
+        fila3.append(paciente)
         return "3"
     }
     return "0"

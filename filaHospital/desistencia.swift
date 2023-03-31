@@ -3,7 +3,7 @@ func removerPacienteDaFila(){
     
     if let senha = readLine(), let senhaInt = Int(senha), senhaInt <= ultimaSenha{
         for (index, paciente) in fila1.enumerated(){
-            if paciente[0] == senha{
+            if paciente.senha == senha{
                 fila1.remove(at: index)
                 print("\nPACIENTE REMOVIDO!")
                 return
@@ -11,7 +11,7 @@ func removerPacienteDaFila(){
         }
         
         for (index, paciente) in fila2.enumerated(){
-            if paciente[0] == senha{
+            if paciente.senha == senha{
                 fila2.remove(at: index)
                 print("\nPACIENTE REMOVIDO!")
                 return
@@ -19,7 +19,7 @@ func removerPacienteDaFila(){
         }
         
         for (index, paciente) in fila3.enumerated(){
-            if paciente[0] == senha{
+            if paciente.senha == senha{
                 fila3.remove(at: index)
                 print("\nPACIENTE REMOVIDO!")
                 return

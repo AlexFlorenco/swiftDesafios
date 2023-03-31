@@ -1,17 +1,17 @@
-func buscarPrioridade(_ fila: inout Array<Array<String>>) -> Array<String>{
+func buscarPrioridade(_ fila: inout Array<Paciente>) -> Paciente?{
     for (index, paciente) in fila.enumerated(){
-        if paciente[2] == "IDOSO"{
+        if paciente.tipo == "IDOSO"{
             fila.remove(at: index)
             return paciente
         }
     }
     for (index, paciente) in fila.enumerated(){
-        if paciente[2] == "CRIANÇA"{
+        if paciente.tipo == "CRIANÇA"{
             fila.remove(at: index)
             return paciente
         }
     }
-    return []
+    return nil
 }
 
 func atenderPaciente(){
@@ -29,12 +29,12 @@ func atenderPaciente(){
             }
             
             let paciente = buscarPrioridade(&fila1)
-            if  paciente.isEmpty{
-                print("\nSENHA: \(fila1.first![0])\nPACIENTE: \(fila1.first![1])\nCONSULTÓRIO: 1")
-                fila1.remove(at: 0)
+            if  let paciente{
+                print("\nSENHA: \(paciente.senha)\nPACIENTE: \(paciente.nome)\nCONSULTÓRIO: 1")
             }
             else {
-                print("\nSENHA: \(paciente[0])\nPACIENTE: \(paciente[1])\nCONSULTÓRIO: 1")
+                print("\nSENHA: \(fila1[0].senha)\nPACIENTE: \(fila1[0].nome)\nCONSULTÓRIO: 1")
+                fila1.remove(at: 0)
             }
             
         case "2":
@@ -44,12 +44,12 @@ func atenderPaciente(){
             }
             
             let paciente = buscarPrioridade(&fila2)
-            if  paciente.isEmpty{
-                print("\nSENHA: \(fila2.first![0])\nPACIENTE: \(fila2.first![1])\nCONSULTÓRIO: 2")
-                fila2.remove(at: 0)
+            if  let paciente{
+                print("\nSENHA: \(paciente.senha)\nPACIENTE: \(paciente.nome)\nCONSULTÓRIO: 1")
             }
             else {
-                print("\nSENHA: \(paciente[0])\nPACIENTE: \(paciente[1])\nCONSULTÓRIO: 2")
+                print("\nSENHA: \(fila2[0].senha)\nPACIENTE: \(fila2[0].nome)\nCONSULTÓRIO: 1")
+                fila2.remove(at: 0)
             }
             
         case "3":
@@ -59,12 +59,12 @@ func atenderPaciente(){
             }
             
             let paciente = buscarPrioridade(&fila3)
-            if  paciente.isEmpty{
-                print("\nSENHA: \(fila3.first![0])\nPACIENTE: \(fila3.first![1])\nCONSULTÓRIO: 3")
-                fila3.remove(at: 0)
+            if  let paciente{
+                print("\nSENHA: \(paciente.senha)\nPACIENTE: \(paciente.nome)\nCONSULTÓRIO: 1")
             }
             else {
-                print("\nSENHA: \(paciente[0])\nPACIENTE: \(paciente[1])\nCONSULTÓRIO: 3")
+                print("\nSENHA: \(fila3[0].senha)\nPACIENTE: \(fila3[0].nome)\nCONSULTÓRIO: 1")
+                fila3.remove(at: 0)
             }
             
         default:
