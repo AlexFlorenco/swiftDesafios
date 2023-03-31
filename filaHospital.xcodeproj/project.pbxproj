@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA391D8A29D73636005EBA6F /* mostrarFilas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA391D8929D73636005EBA6F /* mostrarFilas.swift */; };
 		FA59A0C929D4E508007C1619 /* desistencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59A0C829D4E508007C1619 /* desistencia.swift */; };
 		FA98345B29D4DFBA00B81C89 /* cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345929D4DFBA00B81C89 /* cadastro.swift */; };
 		FA98345C29D4DFBA00B81C89 /* atendimento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345A29D4DFBA00B81C89 /* atendimento.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA391D8929D73636005EBA6F /* mostrarFilas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mostrarFilas.swift; sourceTree = "<group>"; };
 		FA59A0C829D4E508007C1619 /* desistencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desistencia.swift; sourceTree = "<group>"; };
 		FA98345129D4DF0700B81C89 /* Functions.instrdst */ = {isa = PBXFileReference; explicitFileType = com.apple.instruments.instrdst; includeInIndex = 0; path = Functions.instrdst; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA98345829D4DFBA00B81C89 /* Paciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				FA98345929D4DFBA00B81C89 /* cadastro.swift */,
 				FA98345829D4DFBA00B81C89 /* Paciente.swift */,
 				FA59A0C829D4E508007C1619 /* desistencia.swift */,
+				FA391D8929D73636005EBA6F /* mostrarFilas.swift */,
 			);
 			path = filaHospital;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				FAA916D129D3C77F00858279 /* main.swift in Sources */,
 				FA59A0C929D4E508007C1619 /* desistencia.swift in Sources */,
 				FA98345D29D4DFBA00B81C89 /* Paciente.swift in Sources */,
+				FA391D8A29D73636005EBA6F /* mostrarFilas.swift in Sources */,
 				FA98345C29D4DFBA00B81C89 /* atendimento.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
