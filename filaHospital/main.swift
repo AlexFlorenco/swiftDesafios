@@ -1,5 +1,3 @@
-import filaHospital
-
 var ultimaSenha = 0
 var fila1 = [Paciente]()
 var fila2 = [Paciente]()

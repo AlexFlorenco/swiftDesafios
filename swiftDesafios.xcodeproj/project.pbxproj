@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		FA391D8A29D73636005EBA6F /* mostrarFilas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA391D8929D73636005EBA6F /* mostrarFilas.swift */; };
 		FA59A0C929D4E508007C1619 /* desistencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59A0C829D4E508007C1619 /* desistencia.swift */; };
+		FA6E791C29D87D5C00257A6F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E791B29D87D5C00257A6F /* main.swift */; };
+		FA6E791E29D882BB00257A6F /* Contato.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E791D29D882BB00257A6F /* Contato.swift */; };
+		FA6E792029D882CF00257A6F /* funcoesAlteracaoAgenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E791F29D882CF00257A6F /* funcoesAlteracaoAgenda.swift */; };
+		FA6E792229D882E000257A6F /* funcoesExibicaoAgenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E792129D882E000257A6F /* funcoesExibicaoAgenda.swift */; };
 		FA98345B29D4DFBA00B81C89 /* cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345929D4DFBA00B81C89 /* cadastro.swift */; };
 		FA98345C29D4DFBA00B81C89 /* atendimento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345A29D4DFBA00B81C89 /* atendimento.swift */; };
 		FA98345D29D4DFBA00B81C89 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345829D4DFBA00B81C89 /* Paciente.swift */; };
@@ -16,6 +20,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		FA6E791029D87D2400257A6F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		FAA916CB29D3C77E00858279 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -30,7 +43,11 @@
 /* Begin PBXFileReference section */
 		FA391D8929D73636005EBA6F /* mostrarFilas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mostrarFilas.swift; sourceTree = "<group>"; };
 		FA59A0C829D4E508007C1619 /* desistencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desistencia.swift; sourceTree = "<group>"; };
-		FA98345129D4DF0700B81C89 /* Functions.instrdst */ = {isa = PBXFileReference; explicitFileType = com.apple.instruments.instrdst; includeInIndex = 0; path = Functions.instrdst; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6E791229D87D2400257A6F /* agendaContatos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = agendaContatos; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6E791B29D87D5C00257A6F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FA6E791D29D882BB00257A6F /* Contato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contato.swift; sourceTree = "<group>"; };
+		FA6E791F29D882CF00257A6F /* funcoesAlteracaoAgenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funcoesAlteracaoAgenda.swift; sourceTree = "<group>"; };
+		FA6E792129D882E000257A6F /* funcoesExibicaoAgenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funcoesExibicaoAgenda.swift; sourceTree = "<group>"; };
 		FA98345829D4DFBA00B81C89 /* Paciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
 		FA98345929D4DFBA00B81C89 /* cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cadastro.swift; sourceTree = "<group>"; };
 		FA98345A29D4DFBA00B81C89 /* atendimento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atendimento.swift; sourceTree = "<group>"; };
@@ -39,6 +56,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FA6E790F29D87D2400257A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAA916CA29D3C77E00858279 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,10 +73,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA6E791329D87D2400257A6F /* agendaContatos */ = {
+			isa = PBXGroup;
+			children = (
+				FA6E791B29D87D5C00257A6F /* main.swift */,
+				FA6E791D29D882BB00257A6F /* Contato.swift */,
+				FA6E791F29D882CF00257A6F /* funcoesAlteracaoAgenda.swift */,
+				FA6E792129D882E000257A6F /* funcoesExibicaoAgenda.swift */,
+			);
+			path = agendaContatos;
+			sourceTree = "<group>";
+		};
 		FAA916C429D3C77E00858279 = {
 			isa = PBXGroup;
 			children = (
 				FAA916CF29D3C77F00858279 /* filaHospital */,
+				FA6E791329D87D2400257A6F /* agendaContatos */,
 				FAA916CE29D3C77F00858279 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				FAA916CD29D3C77F00858279 /* filaHospital */,
-				FA98345129D4DF0700B81C89 /* Functions.instrdst */,
+				FA6E791229D87D2400257A6F /* agendaContatos */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,20 +118,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA98345029D4DF0700B81C89 /* Functions */ = {
+		FA6E791129D87D2400257A6F /* agendaContatos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA98345529D4DF0700B81C89 /* Build configuration list for PBXNativeTarget "Functions" */;
+			buildConfigurationList = FA6E791629D87D2400257A6F /* Build configuration list for PBXNativeTarget "agendaContatos" */;
 			buildPhases = (
-				FA98344F29D4DF0700B81C89 /* Sources */,
+				FA6E790E29D87D2400257A6F /* Sources */,
+				FA6E790F29D87D2400257A6F /* Frameworks */,
+				FA6E791029D87D2400257A6F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Functions;
-			productName = Functions;
-			productReference = FA98345129D4DF0700B81C89 /* Functions.instrdst */;
-			productType = "com.apple.product-type.instruments-package";
+			name = agendaContatos;
+			productName = agendaContatos;
+			productReference = FA6E791229D87D2400257A6F /* agendaContatos */;
+			productType = "com.apple.product-type.tool";
 		};
 		FAA916CC29D3C77E00858279 /* filaHospital */ = {
 			isa = PBXNativeTarget;
@@ -124,15 +162,16 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					FA98345029D4DF0700B81C89 = {
+					FA6E791129D87D2400257A6F = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					FAA916CC29D3C77E00858279 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = FAA916C829D3C77E00858279 /* Build configuration list for PBXProject "filaHospital" */;
+			buildConfigurationList = FAA916C829D3C77E00858279 /* Build configuration list for PBXProject "swiftDesafios" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,16 +185,20 @@
 			projectRoot = "";
 			targets = (
 				FAA916CC29D3C77E00858279 /* filaHospital */,
-				FA98345029D4DF0700B81C89 /* Functions */,
+				FA6E791129D87D2400257A6F /* agendaContatos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA98344F29D4DF0700B81C89 /* Sources */ = {
+		FA6E790E29D87D2400257A6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6E791E29D882BB00257A6F /* Contato.swift in Sources */,
+				FA6E792229D882E000257A6F /* funcoesExibicaoAgenda.swift in Sources */,
+				FA6E791C29D87D5C00257A6F /* main.swift in Sources */,
+				FA6E792029D882CF00257A6F /* funcoesAlteracaoAgenda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,27 +218,40 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FA98345629D4DF0700B81C89 /* Debug */ = {
+		FA6E791729D87D2400257A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9592S847AD;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Instruments/Packages";
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VERSIONING_SYSTEM = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "agendaContatos/agendaContatos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		FA98345729D4DF0700B81C89 /* Release */ = {
+		FA6E791829D87D2400257A6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9592S847AD;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Instruments/Packages";
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VERSIONING_SYSTEM = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "agendaContatos/agendaContatos-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -337,16 +393,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA98345529D4DF0700B81C89 /* Build configuration list for PBXNativeTarget "Functions" */ = {
+		FA6E791629D87D2400257A6F /* Build configuration list for PBXNativeTarget "agendaContatos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA98345629D4DF0700B81C89 /* Debug */,
-				FA98345729D4DF0700B81C89 /* Release */,
+				FA6E791729D87D2400257A6F /* Debug */,
+				FA6E791829D87D2400257A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAA916C829D3C77E00858279 /* Build configuration list for PBXProject "filaHospital" */ = {
+		FAA916C829D3C77E00858279 /* Build configuration list for PBXProject "swiftDesafios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAA916D229D3C77F00858279 /* Debug */,
