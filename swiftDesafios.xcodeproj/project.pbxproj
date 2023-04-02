@@ -13,6 +13,10 @@
 		FA6E791E29D882BB00257A6F /* Contato.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E791D29D882BB00257A6F /* Contato.swift */; };
 		FA6E792029D882CF00257A6F /* funcoesAlteracaoAgenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E791F29D882CF00257A6F /* funcoesAlteracaoAgenda.swift */; };
 		FA6E792229D882E000257A6F /* funcoesExibicaoAgenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E792129D882E000257A6F /* funcoesExibicaoAgenda.swift */; };
+		FA6E792B29D889AF00257A6F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E792A29D889AF00257A6F /* main.swift */; };
+		FA6E793029D8A0E500257A6F /* Conta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E792F29D8A0E500257A6F /* Conta.swift */; };
+		FA6E793229D8A1B800257A6F /* Banco.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E793129D8A1B800257A6F /* Banco.swift */; };
+		FA6E793429D8EC1B00257A6F /* menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E793329D8EC1B00257A6F /* menus.swift */; };
 		FA98345B29D4DFBA00B81C89 /* cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345929D4DFBA00B81C89 /* cadastro.swift */; };
 		FA98345C29D4DFBA00B81C89 /* atendimento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345A29D4DFBA00B81C89 /* atendimento.swift */; };
 		FA98345D29D4DFBA00B81C89 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98345829D4DFBA00B81C89 /* Paciente.swift */; };
@@ -21,6 +25,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FA6E791029D87D2400257A6F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FA6E792629D889AF00257A6F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -48,6 +61,11 @@
 		FA6E791D29D882BB00257A6F /* Contato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contato.swift; sourceTree = "<group>"; };
 		FA6E791F29D882CF00257A6F /* funcoesAlteracaoAgenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funcoesAlteracaoAgenda.swift; sourceTree = "<group>"; };
 		FA6E792129D882E000257A6F /* funcoesExibicaoAgenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funcoesExibicaoAgenda.swift; sourceTree = "<group>"; };
+		FA6E792829D889AF00257A6F /* sistemaBancario */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sistemaBancario; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6E792A29D889AF00257A6F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FA6E792F29D8A0E500257A6F /* Conta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conta.swift; sourceTree = "<group>"; };
+		FA6E793129D8A1B800257A6F /* Banco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banco.swift; sourceTree = "<group>"; };
+		FA6E793329D8EC1B00257A6F /* menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menus.swift; sourceTree = "<group>"; };
 		FA98345829D4DFBA00B81C89 /* Paciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
 		FA98345929D4DFBA00B81C89 /* cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cadastro.swift; sourceTree = "<group>"; };
 		FA98345A29D4DFBA00B81C89 /* atendimento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atendimento.swift; sourceTree = "<group>"; };
@@ -57,6 +75,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		FA6E790F29D87D2400257A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6E792529D889AF00257A6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,11 +109,23 @@
 			path = agendaContatos;
 			sourceTree = "<group>";
 		};
+		FA6E792929D889AF00257A6F /* sistemaBancario */ = {
+			isa = PBXGroup;
+			children = (
+				FA6E792A29D889AF00257A6F /* main.swift */,
+				FA6E792F29D8A0E500257A6F /* Conta.swift */,
+				FA6E793129D8A1B800257A6F /* Banco.swift */,
+				FA6E793329D8EC1B00257A6F /* menus.swift */,
+			);
+			path = sistemaBancario;
+			sourceTree = "<group>";
+		};
 		FAA916C429D3C77E00858279 = {
 			isa = PBXGroup;
 			children = (
 				FAA916CF29D3C77F00858279 /* filaHospital */,
 				FA6E791329D87D2400257A6F /* agendaContatos */,
+				FA6E792929D889AF00257A6F /* sistemaBancario */,
 				FAA916CE29D3C77F00858279 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +135,7 @@
 			children = (
 				FAA916CD29D3C77F00858279 /* filaHospital */,
 				FA6E791229D87D2400257A6F /* agendaContatos */,
+				FA6E792829D889AF00257A6F /* sistemaBancario */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +173,23 @@
 			productReference = FA6E791229D87D2400257A6F /* agendaContatos */;
 			productType = "com.apple.product-type.tool";
 		};
+		FA6E792729D889AF00257A6F /* sistemaBancario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6E792E29D889AF00257A6F /* Build configuration list for PBXNativeTarget "sistemaBancario" */;
+			buildPhases = (
+				FA6E792429D889AF00257A6F /* Sources */,
+				FA6E792529D889AF00257A6F /* Frameworks */,
+				FA6E792629D889AF00257A6F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sistemaBancario;
+			productName = sistemaBancario;
+			productReference = FA6E792829D889AF00257A6F /* sistemaBancario */;
+			productType = "com.apple.product-type.tool";
+		};
 		FAA916CC29D3C77E00858279 /* filaHospital */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA916D429D3C77F00858279 /* Build configuration list for PBXNativeTarget "filaHospital" */;
@@ -166,6 +221,9 @@
 						CreatedOnToolsVersion = 14.2;
 						LastSwiftMigration = 1420;
 					};
+					FA6E792729D889AF00257A6F = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					FAA916CC29D3C77E00858279 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -186,6 +244,7 @@
 			targets = (
 				FAA916CC29D3C77E00858279 /* filaHospital */,
 				FA6E791129D87D2400257A6F /* agendaContatos */,
+				FA6E792729D889AF00257A6F /* sistemaBancario */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +258,17 @@
 				FA6E792229D882E000257A6F /* funcoesExibicaoAgenda.swift in Sources */,
 				FA6E791C29D87D5C00257A6F /* main.swift in Sources */,
 				FA6E792029D882CF00257A6F /* funcoesAlteracaoAgenda.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6E792429D889AF00257A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6E792B29D889AF00257A6F /* main.swift in Sources */,
+				FA6E793229D8A1B800257A6F /* Banco.swift in Sources */,
+				FA6E793429D8EC1B00257A6F /* menus.swift in Sources */,
+				FA6E793029D8A0E500257A6F /* Conta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +321,28 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "agendaContatos/agendaContatos-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA6E792C29D889AF00257A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9592S847AD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA6E792D29D889AF00257A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9592S847AD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -398,6 +490,15 @@
 			buildConfigurations = (
 				FA6E791729D87D2400257A6F /* Debug */,
 				FA6E791829D87D2400257A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6E792E29D889AF00257A6F /* Build configuration list for PBXNativeTarget "sistemaBancario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6E792C29D889AF00257A6F /* Debug */,
+				FA6E792D29D889AF00257A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
